@@ -1,0 +1,11 @@
+{
+  "name": "Real-Time Inventory",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": ["ms-python.python", "esbenp.prettier-vscode"],
+  "postCreateCommand": "pip install -r backend/requirements.txt && cd frontend && npm install"
+}
