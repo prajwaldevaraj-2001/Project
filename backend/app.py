@@ -59,4 +59,4 @@ def update_product(product_id):
     return jsonify({"error": "Product not found"}), 404
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True)
+    socketio.run(app, debug=True
